@@ -11,4 +11,10 @@ public class BinarySearchImplementation {
         this.sortAlgorithm = sortAlgorithm ;
     }
 
+    public int binarySearch(int[] numbers, int key){
+        sortAlgorithm.sort(numbers);
+        //find key in numbers;
+        return 3 ;
+    }
+
 }
